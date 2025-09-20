@@ -20,9 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a33x/proprietary/vendor/etc/wifi/slsi_reg_database.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/slsi_reg_database.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/APSV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APSV_AUDIO_SLSI.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.1.6_01_26_QVGA.nnc \
-    vendor/samsung/a33x/proprietary/vendor/firmware/OD_V2.3.7_02_05_VGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.3.7_02_05_VGA.nnc \
     vendor/samsung/a33x/proprietary/vendor/firmware/SM-A336B/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A336B/APDV_AUDIO_SLSI.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/SM-A336B/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A336B/AP_AUDIO_SLSI.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/SM-A336B/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A336B/NPU.bin \
@@ -42,19 +39,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a33x/proprietary/vendor/firmware/a2dpcom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a2dpcom.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/abox_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/abox_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.conf \
-    vendor/samsung/a33x/proprietary/vendor/firmware/avsyncmix.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/avsyncmix.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/bidirmic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bidirmic.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/default_configuration.flm.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/default_configuration.flm.cfg.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/dolby.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dolby.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/dual_cal_wide_sub.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal_wide_sub.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/ft3519_a33x.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ft3519_a33x.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/gt9895_a33x.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_a33x.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/is_fw_mcu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_fw_mcu.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_lib.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_rta.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/listenbackeffect.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/listenbackeffect.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/lmecpu_GC02M1B.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_GC02M1B.json \
     vendor/samsung/a33x/proprietary/vendor/firmware/lmecpu_GC5035.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_GC5035.json \
     vendor/samsung/a33x/proprietary/vendor/firmware/lmecpu_IMX258.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_IMX258.json \
@@ -68,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a33x/proprietary/vendor/firmware/sb_others.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_others.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/sectiongraph_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sectiongraph_tplg.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/sectiongraph_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/sectiongraph_tplg.conf \
-    vendor/samsung/a33x/proprietary/vendor/firmware/secure_configuration.flm.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/secure_configuration.flm.cfg.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/setfile_3l6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3l6.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/setfile_4ha.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4ha.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/setfile_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc02m1.bin \
@@ -81,7 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a33x/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/samsung/a33x/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
-    vendor/samsung/a33x/proprietary/vendor/firmware/volumemonitor.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/volumemonitor.bin \
     vendor/samsung/a33x/proprietary/vendor/tee/SM-A336B/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A336B/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/a33x/proprietary/vendor/tee/SM-A336B/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A336B/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a33x/proprietary/vendor/tee/SM-A336B/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A336B/00000000-0000-0000-0000-000000534b4d \
