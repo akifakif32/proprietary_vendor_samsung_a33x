@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a33x/proprietary/recovery/root/vendor/firmware/ft3519_a33x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ft3519_a33x.bin \
     vendor/samsung/a33x/proprietary/recovery/root/vendor/firmware/gt9895_a33x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a33x.bin \
+    vendor/samsung/a33x/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a33x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/a33x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/a33x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
@@ -233,12 +234,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a33x/proprietary/vendor/tee/SM-A336N/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A336N/driver/00000000-0000-0000-0000-564c544b4456 \
     vendor/samsung/a33x/proprietary/vendor/tee/SM-A336N/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A336N/ffffffff-0000-0000-0000-000000000030 \
     vendor/samsung/a33x/proprietary/vendor/tee/SM-A336N/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A336N/tui/resolution_common/ID00000100 \
-    vendor/samsung/a33x/proprietary/vendor_ramdisk/firmware/ft3519_a33x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/firmware/ft3519_a33x.bin \
-    vendor/samsung/a33x/proprietary/vendor_ramdisk/firmware/gt9895_a33x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/firmware/gt9895_a33x.bin
+    vendor/samsung/a33x/proprietary/vendor_ramdisk/vendor/firmware/ft3519_a33x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/ft3519_a33x.bin \
+    vendor/samsung/a33x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a33x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a33x.bin
 
 PRODUCT_PACKAGES += \
     camera.s5e8825 \
     libMERTA \
+    lib_SoundAlive_play_plus_ver400 \
+    lib_SoundBooster_ver1100 \
     libbauthserver \
     libbauthtzcommon \
     libexynoscamera3 \
@@ -247,4 +250,6 @@ PRODUCT_PACKAGES += \
     libexynoscamera_vpl_plugin \
     liblmecpu \
     libsec2lsi_conversion \
-    libswlme
+    libswlme \
+    libaudiosaplus_sec \
+    libsamsungSoundbooster_plus
